@@ -1,0 +1,27 @@
+body {
+background-color: 77FFBB;
+font-family : "Lucida Sans", sans-serif;
+
+}
+
+h1 {
+
+	text-align: center;
+}
+.textme{
+	position: relative;
+	left: 390px;
+	margin : 50px;
+}
+
+.input {
+position: relative;
+left : 200px;
+
+}
+.button {
+
+	position: relative;
+	left: 600px;
+	
+}

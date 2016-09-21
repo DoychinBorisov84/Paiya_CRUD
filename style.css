@@ -1,0 +1,79 @@
+body{
+
+	font-family: "Lucida Sans", sans-serif;
+	font-size: 25px;
+	background-color: grey;
+}
+
+#myTable, tr{
+	table-layout: fixed;
+	padding : 2px;
+	border : 3px solid black;
+	border-collapse : collapse;
+	white-space: nowrap;
+    width: 70%;  
+}
+
+th{
+	display: table-cell;
+	border : 3px solid black;
+}
+
+td {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	border: 3px solid black;
+}
+
+#tablic{
+	position: relative;
+	left: 200px;
+	margin-bottom: 40px;
+}
+
+.clickers{
+	
+	position: relative;
+	left: 350px;	
+}
+
+.clickers a {
+
+	text-decoration: none;
+
+}
+.textme{
+	position: relative;
+	left: 200px;
+	margin : 50px;
+}
+
+.input {
+position: relative;
+left : 150px;
+
+}
+
+
+.button {
+	width:  120px;
+	height: 50px;
+	position: relative;
+	left: 450px;
+	bottom: 50px;
+	color : black;
+	font-weight: bold;
+	background-color: 447777;
+}
+.home {
+	display: block;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 600px;
+	padding-bottom: 20px;
+}
+
+
+
